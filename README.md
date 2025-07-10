@@ -55,12 +55,11 @@
 
 | Component              | Part Number     | Function                         | Cost (INR) |
 |------------------------|------------------|----------------------------------|------------|
-| PPG/SpO2 Sensor        | MAX30102         | Heart rate, SpO2 monitoring      | ₹320       |
-| Temperature Sensor     | MLX90614         | Non-contact body temperature     | ₹1000      |
-| IMU/Accelerometer      | ADXL335          | Motion detection, artifact removal | ₹1280     |
-| Microcontroller        | ESP32-WROOM-32   | Edge AI & WiFi                   | ₹800       |
-| OLED Display (0.96")   | SSD1306          | Visualize vitals in real-time    | ₹200       |
-| Power & PCB            | LiPo + Circuitry | Portability & deployment         | ₹400       |
+| PPG/SpO2 Sensor        | MAX30102         | Heart rate, SpO2 monitoring      | ₹150       |
+| IMU/Accelerometer      | MPU 6050         | Motion detection, artifact removal | ₹435    |
+| Microcontroller        | ESP32-WROOM-32   | Edge AI & WiFi                   | ₹1472      |
+| OLED Display (1.8")    | SSD1306          | Visualize vitals in real-time    | ₹450       |
+| Power & PCB            | LiPo + Circuitry | Portability & deployment         | ₹300      |
 
 **Total Estimated Cost: ₹4000**
 
@@ -72,14 +71,13 @@
 |---------------|------------|------------------------|----------|
 | MAX30102 SDA  | GPIO 21    | I2C Data               | I2C      |
 | MAX30102 SCL  | GPIO 22    | I2C Clock              | I2C      |
-| MAX30102 INT  | GPIO 4     | Interrupt              | Digital  |
-| MLX90614 SDA  | GPIO 21    | I2C Data (shared)      | I2C      |
-| MLX90614 SCL  | GPIO 22    | I2C Clock (shared)     | I2C      |
-| ADXL335 X     | GPIO 36    | X-axis motion          | Analog   |
-| ADXL335 Y     | GPIO 39    | Y-axis motion          | Analog   |
-| ADXL335 Z     | GPIO 34    | Z-axis motion          | Analog   |
-| OLED SDA      | GPIO 21    | Display Data (shared)  | I2C      |
-| OLED SCL      | GPIO 22    | Display Clock (shared) | I2C      |
+| MPU6050 SDA   | GPIO 21    | I2C Data (shared)      | I2C      |
+| MPU6050 SCL   | GPIO 22    | I2C Clock (shared)     | I2C      |
+| OLED CS       | GPIO 5     | X-axis motion          | Analog   |
+| OLED RESET    | TX2        | Y-axis motion          | Analog   |
+| OLED AO       | RX2        | Z-axis motion          | Analog   |
+| OLED SDA      | GPIO 23    | Display Data (shared)  | I2C      |
+| OLED SCK      | GPIO 18    | Display Clock (shared) | I2C      |
 
 ---
 
