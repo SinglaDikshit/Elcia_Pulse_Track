@@ -3,7 +3,7 @@
 
 ## 🩺 Project Overview
 
-**RemoteVitals** is a cutting-edge, low-cost remote patient monitoring system combining **PPG**, **temperature**, and **motion sensing** with **Edge AI capabilities**. Designed for rural and telehealth scenarios, the system enables accurate vitals monitoring and **predictive health analytics** using an ESP32 microcontroller.
+**RemoteVitals** is a cutting-edge, low-cost remote patient monitoring wearable device combining **PPG**, **SpO2** **temperature**, and **motion sensing** with **Edge AI capabilities**. Designed for rural and telehealth scenarios, the system enables accurate vitals monitoring and **predictive health analytics** using an ESP32 microcontroller.
 
 ---
 
