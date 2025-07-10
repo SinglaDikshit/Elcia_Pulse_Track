@@ -79,6 +79,10 @@
 | OLED SDA      | GPIO 23    | Display Data (shared)  | I2C      |
 | OLED SCK      | GPIO 18    | Display Clock (shared) | I2C      |
 
+![Alt Text](images/fritzing.png)
+
+![Alt Text](images/circuit.jpg)
+
 ---
 
 ## 🧪 Testing Plan (TRL-8 Compliance)
