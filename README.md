@@ -1,9 +1,9 @@
 
-# Pulse Track: AI-Enhanced Multi-Modal Vitals Monitoring System with Edge Intelligence
+# RemoteVitals: AI-Enhanced Multi-Modal Vitals Monitoring System with Edge Intelligence
 
 ## 🩺 Project Overview
 
-**Pulse Track** is a cutting-edge, low-cost remote patient monitoring system combining **PPG**, **temperature**, and **motion sensing** with **Edge AI capabilities**. Designed for rural and telehealth scenarios, the system enables accurate vitals monitoring and **predictive health analytics** using an ESP32 microcontroller.
+**RemoteVitals** is a cutting-edge, low-cost remote patient monitoring system combining **PPG**, **temperature**, and **motion sensing** with **Edge AI capabilities**. Designed for rural and telehealth scenarios, the system enables accurate vitals monitoring and **predictive health analytics** using an ESP32 microcontroller.
 
 ---
 
