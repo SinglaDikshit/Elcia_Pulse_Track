@@ -142,9 +142,13 @@
 
 ---
 
-## 📝 Declaration
+## 📝 Acknowledgement
 
-We acknowledge compliance with TRL-8 standards, budget constraints, and open sharing norms as outlined by the ELCIA Tech Summit 2025.
+I would like to extend my sincere gratitude to the ELCIA Committee, the International Institute of Information Technology Bangalore (IIITB), and Kunal Ghosh for providing us with the invaluable opportunity to participate in this hackathon.
+
+Their support and guidance have been instrumental in the development of my project, and their commitment to fostering innovation and creativity is truly commendable. We are deeply thankful for the platform they have created, which has allowed us to explore out ideas, enhance our skills, and contribute to a meaningful cause.
+
+Thank you for this exceptional opportunity.
 
 ---
 
