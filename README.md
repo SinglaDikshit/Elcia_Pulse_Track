@@ -63,7 +63,7 @@
 
 `codes/code_MAX.ino` and `code/code_MPU.ino` are used personally by us to record data through Python in CSV files, and `heart_rate.py` and `Mpu_data.py` are the pyhton scripts used to record data
 
-Reader can refer comments for deatiled explanation
+Reader can refer comments for detailed explanation
 
 ---
 ## Results
@@ -99,18 +99,19 @@ this is plot for Infrared ray reflection from blood record by photo diode
 ---
 
 ## Challenges Faced
-> Due to non-availabilty of the TMP117 sensor, which we wanted to use to record temperature by touch sensing was not available anywhere and Robu told it will take 10 days to deliver this meanwhile we were waiting for the order to come. Then I had to go buy from the marketplace but the sensors are faulty and cheap so they are not recording as per expectation
-> 
-> We want to 3.3V MAX sensor but it was 1.8 so we had too modify the sensor for our need, snapshot can be seen down
->
-> Due to limited time, we are not able to implemetn Edge AI using Edgr Impulse but will do in future
 
-![Alt Text](images/challeng.png)
+> Due to the unavailability of the TMP117 sensor—which we intended to use for accurate touch-based temperature measurement—we faced procurement delays. Although we initially placed an order, the supplier (Robu) estimated a delivery time of 10 days, which significantly impacted our timeline.
+>
+> As an alternative, we sourced a local MAX temperature sensor from the marketplace; however, it did not meet the required performance standards due to subpar build quality. Additionally, the sensor operated at 1.8V instead of the 3.3V required by our system, necessitating hardware-level modifications to ensure compatibility as seen down.
+>
+> Lastly, due to time constraints, we were unable to fully integrate Edge AI models using Edge Impulse during this phase. However, we plan to implement and evaluate these capabilities in future iterations.
+
+![Alt Text](images/challeng.jpg)
 
 ---
 
 
-## 🧪 Testing Plan (TRL-8 Compliance)
+##  Testing Plan (TRL-8 Compliance)
 
 - ✅ **Accuracy Validation**: Compared heart rate and SpO₂ readings with commercial oximeters; maintained ±3 BPM and ±3% SpO₂ under stable conditions  
 - ✅ **Motion Artifact Testing**: Verified signal stability during movement (walking, hand motion) using IMU-assisted noise filtering  
