@@ -31,9 +31,10 @@
 | IMU/Accelerometer      | MPU 6050         | Motion detection, artifact removal | ₹435    |
 | Microcontroller        | ESP32-WROOM-32   | Edge AI & WiFi                   | ₹1472      |
 | OLED Display (1.8")    | SSD1306          | Visualize vitals in real-time    | ₹450       |
-| Power & PCB            | LiPo + Circuitry | Portability & deployment         | ₹300      |
+| Power             | LiPo  | Portability & deployment         | ₹260      |
+| PCB    | Circuitary        | Support    | ₹300       |
 
-**Total Estimated Cost: ₹4000**
+**Total Estimated Cost: ₹3000**
 
 ---
 
