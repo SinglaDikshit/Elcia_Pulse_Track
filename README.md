@@ -93,11 +93,23 @@ https://drive.google.com/file/d/1tzzq1KoVauxgcrgiYAXC9QIRF261q3CF/view?usp=shari
 
 ![Alt Text](images/accelerometer.png)
 
+Above is the plot of accelerometer values recorded from MPU6050, in the later half motion is X-axis, Y-axis and Z-axis is visible clearly.
+
 ![Alt Text](images/gyroscope.png)
+
+Here also, We can observe in the later part of the graph when Rx gets a sharp shift from origin to negative and then positive around 17:46:33 to 17:46:35 shows correct recording of data. Similarly, RY after 35 have similar trend followed by Rz
 
 ![Alt Text](images/BPM.png)
 
+Here it can be observed that when its stable BPM value fluctuates between the normal 60-120 bpm and when it used change the finger it would go down sharply as seen. Also, we found that the sensor is not accurate so we had to debug the sensor to achieve this
+
 ![Alt Text](images/HR.png)
+
+Similarly, we can see the heart rate  trend it is stable when finger is kept still and flutuates when it was changed. 
+
+![Alt Text](images/ir.png)
+
+this is plot for Infrared ray reflection from blood record by photo diode
 
 
 ##  Testing Plan (TRL-8 Compliance)
