@@ -96,6 +96,13 @@ Similarly, we can see the heart rate  trend it is stable when finger is kept sti
 
 this is plot for Infrared ray reflection from blood record by photo diode
 
+---
+
+## Challenges Faced
+> Due to non-availabilty of the TMP117 sensor, which we wanted to use to record temperature by touch sensing was not available anywhere and Robu told it will take 10 days to deliver this meanwhile we were waiting for the order to come. Then I had to go buy from the marketplace but the sensors are faulty and cheap so they are not recording as per expectation
+
+---
+
 
 ##  Testing Plan (TRL-8 Compliance)
 
@@ -106,22 +113,11 @@ this is plot for Infrared ray reflection from blood record by photo diode
 - ✅ **Environmental Tolerance**: Tests from -10°C to 50°C  
 - ✅ **AI Model Validation**: Synthetic and real-world ECG comparisons  
 - ✅ **Field Trials**: 48-hour test with multiple subjects  
-
 ---
 
-##  Indian Sensor Substitution Plan
+##  Edge AI & ML Features for future implementation
 
-- Modular I2C/SPI sensor abstraction layers  
-- Firmware calibration routines for sensor variability  
-- PCB design supports pin-compatible Indian alternatives  
-- Backward-compatible firmware updates for new hardware  
-- Explore partnerships with Indian sensor manufacturers  
-
----
-
-##  Edge AI & ML Features
-
-### Frameworks Used:
+### Frameworks plan for future:
 
 - `TensorFlow Lite Micro`  
 - `Arduino` + `C++` for real-time tasks  
@@ -140,16 +136,14 @@ this is plot for Infrared ray reflection from blood record by photo diode
 - Context-aware sensor tuning (e.g., sleep vs active)  
 - Health risk scoring and trend alerts  
 
----
 
-## 📹 Demo
-
-> A short demo video (under 3 minutes) is provided in the `demo/` folder showing device functionality, vitals output, and real-time alerts.
 
 ---
 
 ## Conclusion
 
+
+---
 
 ##  Team
 
