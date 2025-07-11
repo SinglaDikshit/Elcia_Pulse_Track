@@ -91,13 +91,13 @@ https://drive.google.com/file/d/1tzzq1KoVauxgcrgiYAXC9QIRF261q3CF/view?usp=shari
 ---
 ## Plots of the Results
 
-![Alt Text](images/acceleromter.jpg)
+![Alt Text](images/acceleromter.png)
 
-![Alt Text](images/gyroscopre.jpg)
+![Alt Text](images/gyroscopre.png)
 
-![Alt Text](images/BPM.jpg)
+![Alt Text](images/BPM.png)
 
-![Alt Text](images/HR.jpg)
+![Alt Text](images/HR.png)
 
 
 ##  Testing Plan (TRL-8 Compliance)
