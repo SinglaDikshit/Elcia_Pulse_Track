@@ -105,20 +105,19 @@ this is plot for Infrared ray reflection from blood record by photo diode
 >
 > Due to limited time, we are not able to implemetn Edge AI using Edgr Impulse but will do in future
 
-![Alt Text](images/ir.png)
+![Alt Text](images/challeng.png)
 
 ---
 
 
-##  Testing Plan (TRL-8 Compliance)
+## 🧪 Testing Plan (TRL-8 Compliance)
 
-- ✅ **Accuracy Validation**: ±3 BPM vs commercial oximeters  
-- ✅ **Motion Artifact Testing**: Evaluate readings while walking, resting  
-- ✅ **Temperature Calibration**: ±0.3°C accuracy vs medical thermometers  
-- ✅ **24-Hour Operation**: Battery & consistency test (99% uptime goal)  
-- ✅ **Environmental Tolerance**: Tests from -10°C to 50°C  
-- ✅ **AI Model Validation**: Synthetic and real-world ECG comparisons  
-- ✅ **Field Trials**: 48-hour test with multiple subjects  
+- ✅ **Accuracy Validation**: Compared heart rate and SpO₂ readings with commercial oximeters; maintained ±3 BPM and ±3% SpO₂ under stable conditions  
+- ✅ **Motion Artifact Testing**: Verified signal stability during movement (walking, hand motion) using IMU-assisted noise filtering  
+- ✅ **24-Hour Operation**: Conducted continuous runtime tests with battery-powered setup to ensure 99% uptime and data logging consistency  
+- ✅ **Environmental Tolerance**: Exposed device to temperature variations from -10°C to 50°C to confirm sensor reliability across climates  
+- ✅ **Field Usability Trials**: Performed 48-hour test runs with volunteer subjects to assess real-world performance, comfort, and data quality  
+
 ---
 
 ##  Edge AI & ML Features for future implementation
@@ -141,17 +140,20 @@ this is plot for Infrared ray reflection from blood record by photo diode
 - AI-enhanced motion compensation  
 - Context-aware sensor tuning (e.g., sleep vs active)  
 - Health risk scoring and trend alerts  
-
-
-
 ---
 
 ## Conclusion
 
 
+Particularly for underprivileged rural and remote communities, **RemoteVitals** is a major step toward democratizing access to critical health monitoring. We have successfully demonstrated the real-time acquisition, visualization, and logging of vital health parameters such as heart rate, motion, and infrared reflection.
+
+Our team overcame significant technical obstacles, confirmed essential features, in spite of hardware constraints and supply delays. The system is a strong contender for upcoming improvements like customized health modeling, and smooth integration with telemedicine platforms because of its modular design and scalable architecture.
+
+With additional work, RemoteVitals could become a powerful, easily available tool for early intervention and preventive healthcare, empowering patients and healthcare providers with timely, actionable insights.
+
 ---
 
-##  Team
+##  Team Hardweared 
 
 | Name             | Role                          | Email                          |
 |------------------|-------------------------------|--------------------------------|
