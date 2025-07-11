@@ -1,19 +1,19 @@
 
 # RemoteVitals: AI-Enhanced Multi-Modal Vitals Monitoring System with Edge Intelligence
 
-## 🩺 Project Overview
+##  Project Overview
 
 **RemoteVitals** is a cutting-edge, low-cost remote patient monitoring wearable device combining **PPG**, **SpO2** **temperature**, and **motion sensing** with **Edge AI capabilities**. Designed for rural and telehealth scenarios, the system enables accurate vitals monitoring and **predictive health analytics** using an ESP32 microcontroller.
 
 ---
 
-## 🎯 Target Application Area
+##  Target Application Area
 
 **Remote Patient Monitoring** — for cardiovascular patients, respiratory conditions, post-operative care, and elderly monitoring in low-resource settings.
 
 ---
 
-## 🚀 Key Innovation Highlights
+##  Key Innovation Highlights
 
 - **Edge AI:** Real-time signal processing using TinyML on ESP32.
 - **Sensor Fusion:** Combines PPG, IMU, and temperature data for accurate readings.
@@ -22,7 +22,7 @@
 
 ---
 
-## 📦 Repository Structure
+##  Repository Structure
 
 ```bash
 / PulseTrack/
@@ -51,7 +51,7 @@
 
 ---
 
-## 🔧 Hardware Components
+##  Hardware Components
 
 | Component              | Part Number     | Function                         | Cost (INR) |
 |------------------------|------------------|----------------------------------|------------|
@@ -88,8 +88,19 @@
 
 https://drive.google.com/file/d/1tzzq1KoVauxgcrgiYAXC9QIRF261q3CF/view?usp=sharing
 
+---
+## Plots of the Results
 
-## 🧪 Testing Plan (TRL-8 Compliance)
+![Alt Text](images/acceleromter.jpg)
+
+![Alt Text](images/gyroscopre.jpg)
+
+![Alt Text](images/BPM.jpg)
+
+![Alt Text](images/HR.jpg)
+
+
+##  Testing Plan (TRL-8 Compliance)
 
 - ✅ **Accuracy Validation**: ±3 BPM vs commercial oximeters  
 - ✅ **Motion Artifact Testing**: Evaluate readings while walking, resting  
@@ -101,7 +112,7 @@ https://drive.google.com/file/d/1tzzq1KoVauxgcrgiYAXC9QIRF261q3CF/view?usp=shari
 
 ---
 
-## 🇮🇳 Indian Sensor Substitution Plan
+##  Indian Sensor Substitution Plan
 
 - Modular I2C/SPI sensor abstraction layers  
 - Firmware calibration routines for sensor variability  
@@ -111,7 +122,7 @@ https://drive.google.com/file/d/1tzzq1KoVauxgcrgiYAXC9QIRF261q3CF/view?usp=shari
 
 ---
 
-## 🧠 Edge AI & ML Features
+##  Edge AI & ML Features
 
 ### Frameworks Used:
 
@@ -143,7 +154,7 @@ https://drive.google.com/file/d/1tzzq1KoVauxgcrgiYAXC9QIRF261q3CF/view?usp=shari
 ## Conclusion
 
 
-## 🧑‍💻 Team
+##  Team
 
 | Name             | Role                          | Email                          |
 |------------------|-------------------------------|--------------------------------|
@@ -153,7 +164,7 @@ https://drive.google.com/file/d/1tzzq1KoVauxgcrgiYAXC9QIRF261q3CF/view?usp=shari
 
 ---
 
-## 📝 Acknowledgement
+##  Acknowledgement
 
 I would like to extend my sincere gratitude to the ELCIA Committee, the International Institute of Information Technology Bangalore (IIITB), and Kunal Ghosh for providing us with the invaluable opportunity to participate in this hackathon.
 
