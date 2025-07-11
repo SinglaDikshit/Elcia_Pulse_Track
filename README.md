@@ -100,6 +100,12 @@ this is plot for Infrared ray reflection from blood record by photo diode
 
 ## Challenges Faced
 > Due to non-availabilty of the TMP117 sensor, which we wanted to use to record temperature by touch sensing was not available anywhere and Robu told it will take 10 days to deliver this meanwhile we were waiting for the order to come. Then I had to go buy from the marketplace but the sensors are faulty and cheap so they are not recording as per expectation
+> 
+> We want to 3.3V MAX sensor but it was 1.8 so we had too modify the sensor for our need, snapshot can be seen down
+>
+> Due to limited time, we are not able to implemetn Edge AI using Edgr Impulse but will do in future
+
+![Alt Text](images/ir.png)
 
 ---
 
