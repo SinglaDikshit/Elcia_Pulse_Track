@@ -20,34 +20,6 @@
 - **Predictive Analytics:** Early detection of arrhythmias, hypoxemia, etc.
 - **Adaptive Learning:** Personalized health baselines and anomaly detection.
 
----
-
-##  Repository Structure
-
-```bash
-/ PulseTrack/
-│
-├── README.md                         # Project summary, setup, goals
-│
-├── hardware/
-│   ├── circuit diagram.png           # Circuit schematic
-│   ├── pin mapping.txt               # ESP32 pin configuration
-│   └── components list.md            # BOM with part numbers & costs
-│
-├── firmware/
-│   ├── src/
-│   │   ├── main.ino                  # ESP32 firmware (Arduino)
-│   │   └── model.h                   # TinyML model header file
-│   └── platformio.ini               # Optional build system file
-│
-├── test logs/
-│   ├── breathing data.csv           # Sample HR/SpO2 data
-│   ├── drift test 24h.csv           # Long-duration testing logs
-│   └── screenshots/                 # Plots and monitor outputs
-│
-└── demo/
-    └── demo video.mp4               # <3 min demo walkthrough
-```
 
 ---
 
@@ -85,8 +57,21 @@
 
 ---
 
+## Firmware
 
-https://drive.google.com/file/d/1tzzq1KoVauxgcrgiYAXC9QIRF261q3CF/view?usp=sharing
+`codes/code_final.ino` is the code which is used to display the results on the LED and recoding and calculation of data
+
+`codes/code_MAX.ino` and `code/code_MPU.ino` are used personally by us to record data through Python in CSV files, and `heart_rate.py` and `Mpu_data.py` are the pyhton scripts used to record data
+
+Reader can refer comments for deatiled explanation
+
+---
+## Results
+
+The data is accurately recorded in the csv files added above namely - `heart_data_log.csv` and `mpu6050_data_log.csv`
+
+This the Demo Video link for demonstration- 
+[Demo](https://drive.google.com/file/d/1tzzq1KoVauxgcrgiYAXC9QIRF261q3CF/view?usp=sharing)
 
 ---
 ## Plots of the Results
