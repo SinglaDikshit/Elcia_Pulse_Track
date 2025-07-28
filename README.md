@@ -27,14 +27,14 @@
 
 | Component              | Part Number     | Function                         | Cost (INR) |
 |------------------------|------------------|----------------------------------|------------|
-| PPG/SpO2 Sensor        | MAX30102         | Heart rate, SpO2 monitoring      | ₹150       |
-| IMU/Accelerometer      | MPU 6050         | Motion detection, artifact removal | ₹435    |
-| Microcontroller        | ESP32-WROOM-32   | Edge AI & WiFi                   | ₹1472      |
+| PPG/SpO2 Sensor        | MAX30102         | Heart rate, SpO2 monitoring      | ₹120       |
+| IMU/Accelerometer      | MPU 6050         | Motion detection, artifact removal | ₹180    |
+| Microcontroller        | ESP32-WROOM-32   | Edge AI & WiFi                   | ₹430      |
 | OLED Display (1.8")    | SSD1306          | Visualize vitals in real-time    | ₹450       |
 | Power             | LiPo  | Portability & deployment         | ₹260      |
-| PCB    | Circuitary        | Support    | ₹300       |
+| PCB    | Circuitary        | Support    | ₹340       |
 
-**Total Estimated Cost: ₹3000**
+**Total Estimated Cost: ₹1780**
 
 ---
 
